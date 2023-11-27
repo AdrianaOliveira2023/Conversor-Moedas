@@ -1,0 +1,122 @@
+body {
+    font-family: monospace;         /* Define a fonte para todo o documento */
+    color: #000000;                  /* Define a cor do texto */ 
+    background-color:  #f0f0f0;   
+    margin: 0;                      /* Remove a margem padrão */
+    display: flex;                  /* Usa flexbox para centralizar o conteúdo tanto vertical quanto horizontalmente */
+    align-items: center;            /* Centraliza verticalmente os itens */
+    justify-content: center;        /* Centraliza horizontalmente os itens*/
+    height: 100vh;                  /* Define a altura do body como 100% da altura da janela de visualização */
+}
+
+.container {   
+    background-color: #f0f0f0;
+    width: 500px;
+    height: 450px;
+    padding: 20px;
+    border-radius: 40px;
+    border-color: rgba(255, 255, 255, 0.333);
+    box-shadow: 5px 5px 10px #d0d0d0, -5px -5px 10px #ffffff; /* Sombra externa e interna */
+}
+
+.outer-container {
+    text-align: center;
+    
+}
+.social-button{
+    width: 60px;
+    height: 50px;
+    margin: 0 10px;   
+}
+
+.social-icons a {
+    color:#7e97b8;                                            /* Define a cor do texto para os ícones sociais*/
+    
+    font-size: 20px;                                                  /* Define o tamanho da fonte para os ícones sociais*/
+    margin: 0 10px;                                                   /* Adiciona margem à direita e à esquerda para os ícones sociais*/    
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);                        /* Adiciona sombra para dar profundidade */
+}
+
+h1 {
+    color: #777;
+    text-align: center;
+}
+
+.conversorMoedas {
+    margin-top: 20px;
+}
+
+label {    
+    display: flex;
+    margin-bottom: 5px;
+    color: #777;     
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid  rgba(255, 255, 255, 0.333);                     /* Cor da borda (branco semi-transparente) */;                         /* Adiciona uma borda sólida e com cor */
+    outline: none;                                       /* Remove a borda de destaque ao focar no elemento (comportamento padrão do navegador) */    
+    box-shadow: inset 5px 5px 10px #d0d0d0, inset -5px -5px 10px #ffffff; /* Sombra interna ao pressionar o botão */
+}
+
+/* Estilo base para todos os botões */
+button {
+    width: 200px;                                                  
+    height: 40px;                                                    
+    margin-left: 30px;
+    display: inline-block;                                                
+    align-items: center;
+    font-family: inherit;                                           /* Herda a família de fontes do elemento pai */
+    font-size: 16px;                                                    
+    text-transform: uppercase;                                      /* Converte o texto para maiúsculas */    
+    color: #7e97b8;                                                              
+    background-color: #f0f0f0;                                   
+    border-style: solid;                                           
+    border-width: 2px 2px 2px 2px;                                 
+    border-color: rgba(255, 255, 255, 0.333);                    
+    border-radius: 10px;   
+    cursor: pointer;                                                /* O cursor se transforma em uma mãozinha */             
+    transition: 0.2s;                                               /* Transição de 0.2 segundos para mudanças de propriedades */
+    box-shadow: 5px 5px 10px #d0d0d0, -5px -5px 10px #ffffff;   /* Sombra externa e interna */
+   
+}
+
+/* Estilo quando o mouse está sobre o botão */
+button:hover {
+    color: #516d91;                                              
+    background-color: #E5EDF5;                                   
+    box-shadow: 8px 8px 15px #d0d0d0, -8px -8px 15px #ffffff;   /* Ajuste na sombra ao passar o mouse */
+}
+
+/* Estilo quando o botão está sendo pressionado */
+button:active {
+    box-shadow: inset 5px 5px 10px #d0d0d0, inset -5px -5px 10px #ffffff; /* Sombra interna ao pressionar o botão */
+}  
+  
+.result-container {
+    margin-top: 10px;
+    color: #333;
+    text-align: center;
+    font-size: 16px;
+}
+
+footer {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    color: #777;
+}
+
+/* Estilo para o link do rodapé */
+a {
+    color: #777
+ }
+/* Estilo do link rodapé quando o mouse passar por*/
+footer a:hover{
+    color: #7e97b8;
+ } 
+
